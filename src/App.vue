@@ -3,10 +3,11 @@
     <Header />
     <div class="wrapper-content">
     <div class="container">
-      <nav>
+      <!-- <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </nav>
+    </nav> -->
+    <hr>
     <router-view />
     </div>
     </div>
