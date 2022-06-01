@@ -7,13 +7,13 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav> -->
+    <h1>Контент для рендеринга &#x2193;</h1>
     <hr>
     <router-view />
     </div>
     </div>
     <Footer />
   </div>
-  <router-view />
 </template>
 
 <script>
