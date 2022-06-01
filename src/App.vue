@@ -1,12 +1,28 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="wrapper">
+    <Header />
+    <div class="wrapper-content">
+    <div class="container">
+      <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </nav>
+    </div>
+    </div>
+    <Footer />
+  </div>
+  <router-view />
 </template>
 
-<style lang="scss">
+<script>
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+export default {
+  components: { Header, Footer }
+}
+</script>
+
+<!-- <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,5 +42,5 @@ nav {
       color: #42b983;
     }
   }
-}
-</style>
+} -->
+<!-- </style> -->
