@@ -41,7 +41,11 @@
       "parser": "@babel/eslint-parser"
     },
     "rules": {
-      "vue/multi-word-component-names": 0
+      "vue/multi-word-component-names": 0,
+      "quotes": "off",
+      "semi": [1, "always"],
+      "comma-dangle": "off",
+      "@typescript-eslint/comma-dangle": "off"
     }
   },
   "browserslist": [
